@@ -6,12 +6,12 @@
  * Many thanks to XlabSoft & Ind. Infosystems, the originals authors of JAG.
  *
  * Copyright holder 2009-2012 Developed by XlabSoft & Industrial Infosystems
- * Work continued by 2017-2018 Carlos Donizete Froes [a.k.a coringao]
+ * Work continued by 2017-2020 Carlos Donizete Froes [a.k.a coringao]
  *
  * JAG is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
- * any later version.
+ * (at your option) any later version.
  *
  * JAG is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
