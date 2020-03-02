@@ -9,13 +9,16 @@ before_script:
   - apt-get update
   - apt-get upgrade -y
   - apt-get install g++ libxrandr-dev libqt5opengl5-dev libqt5x11extras5-dev libsdl2-dev libsdl2-mixer-dev make qt5-qmake qt5-default qtbase5-dev qtchooser -y
-building:
+
+building-jag:
   stage: jag
   script:
     - qmake
     - make
     - make clean
     - make distclean
+
+building-jag-editor:
   stage: jag-editor
   script:
     - cd src/jag-editor
