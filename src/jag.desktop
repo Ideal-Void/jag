@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=JAG
+Comment=arcade-puzzle 2D game in which you have to break all the target pieces
+Exec=jag
+Keywords=arcade;puzzle;game;pieces;logic;
+Terminal=false
+Type=Application
+Icon=jag
+Categories=Game;LogicGame;
