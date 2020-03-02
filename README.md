@@ -48,14 +48,14 @@ To create the game binary, do it from the source directory.
 
     $ make distclean
 
-The game binary after compilation is in **bin** directory.
+The game binary after compilation.
 
-    $ ./bin/jag
+    $ ./jag
 
 **JAG Level Editor**
 --------------------
 
-To build editor, do from the source directory: (**src/editor**)
+To build editor, do from the source directory: (**src/jag-editor**)
 
 **Starting compilation:**
 
@@ -79,7 +79,7 @@ Once the compilation has finished, execute the created binary:
 > **JAG** is free software: you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
 > the Free Software Foundation, either version 3 of the License, or
-> any later version.
+> (at your option) any later version.
 
 Many thanks to [XlabSoft & Industrial Infosystems](https://xlabsoft.com),
 the originals authors of JAG. Official developers site was deactivated
@@ -87,4 +87,4 @@ at the end of 2016.
 
 Copyleft (ɔ) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
 
-Copyright (c) 2017-2018 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
+Copyright (c) 2017-2020 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
