@@ -30,7 +30,7 @@ It requires the following **QT5** components and **SDL2** library:
 
 **Installation dependency:**
 
-    # apt install qt5-qmake qt5-default qtbase5-dev qtchooser libxrandr-dev libqt5opengl5-dev libqt5x11extras5-dev libsdl2-dev libsdl2-mixer-dev
+    # apt install g++ libxrandr-dev libqt5opengl5-dev libqt5x11extras5-dev libsdl2-dev libsdl2-mixer-dev make qt5-qmake qt5-default qtbase5-dev qtchooser
 
 When all these dependencies are installed to start compiling the game.
 
