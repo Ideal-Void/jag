@@ -34,6 +34,8 @@
 
 #include "scaler.h"
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 QString GameWidget::resourcePath;
 
 GameWidget::GameWidget(const QString &respath, QWidget *parent)
