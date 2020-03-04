@@ -38,15 +38,11 @@ To create the game binary, do it from the source directory.
 
 **Starting compilation:**
 
-    $ qmake
-  
-    $ make
+    $ qmake && make
 
 **Removing compilation:**
 
-    $ make clean
-
-    $ make distclean
+    $ make clean && make distclean
 
 The game binary after compilation.
 
@@ -55,19 +51,15 @@ The game binary after compilation.
 **JAG Level Editor**
 --------------------
 
-To build editor, do from the source directory: (**src/jag-editor**)
+To build editor, do from the source directory: (**src/editor**)
 
 **Starting compilation:**
 
-    $ qmake
-
-    $ make
+    $ qmake && make
 
 **Removing compilation:**
 
-    $ make clean
-
-    $ make distclean
+    $ make clean && make distclean
 
 Once the compilation has finished, execute the created binary:
 
