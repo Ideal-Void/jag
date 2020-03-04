@@ -26,7 +26,7 @@ QMAKE_LFLAGS += -Wl,--as-needed -Wl,-z,now -lpthread
 unix: {
 	target.path = /usr/games/
 	INSTALLS += target
-	datas.path = /usr/share/games/jag/jag-editor/
+	datas.path = /usr/share/games/jag/editor/
 	datas.files = images
 	INSTALLS += datas
 }
