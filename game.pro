@@ -22,7 +22,7 @@ INCLUDEPATH += .
 QT += gui core widgets opengl xml x11extras
 QMAKE_CXXFLAGS += $(shell pkg-config --cflags sdl2) -g -std=gnu++14 \
 -fPIE -D_FORTIFY_SOURCE=2
-QMAKE_LFLAGS += $(shell pkg-config --libs sdl2 -lSDL2_mixer) \
+QMAKE_LFLAGS += $(shell pkg-config --libs sdl2 SDL2_mixer) \
 -lGL -lX11 -lpthread -lXrandr -pie -Wl,--as-needed -Wl,-z,now
 
 LIBS += -lGL -lX11 -lSDL2 -lSDL2_mixer -lpthread -lXrandr
