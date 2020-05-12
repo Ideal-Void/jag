@@ -18,8 +18,8 @@ TARGET = jag-editor
 INCLUDEPATH += .
 
 QT += gui core widgets xml x11extras
-QMAKE_CXXFLAGS += -g -std=gnu++14 -fPIE -D_FORTIFY_SOURCE=2
-QMAKE_LFLAGS += -lpthread -pie -Wl,--as-needed -Wl,-z,now
+QMAKE_CXXFLAGS += -g -std=gnu++14 -D_FORTIFY_SOURCE=2
+QMAKE_LFLAGS += -lpthread -fPIE -pie -Wl,--as-needed -Wl,-z,now
 
 unix: {
 	target.path = /usr/games/
