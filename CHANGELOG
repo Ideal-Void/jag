@@ -1,3 +1,7 @@
+**version: 0.3.8**
+  * Warning and deprecated functions fixed in GCC.
+  * game.pro: Changed to '-std=gnu++17' review.
+
 **version: 0.3.7**
   * Fixed integrated qmake support for pkg-config. (Thanks Helmut Grohne)
   * jag-editor: Removing extra file after running the compiled binary.
