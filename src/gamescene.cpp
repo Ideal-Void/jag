@@ -36,6 +36,8 @@
 #include "gamestat.h"
 #include "gamebackground.h"
 
+#include <QElapsedTimer>
+
 ////////////////////////////////////////////////////////////////////////////////
 
 QString GameScene::getSchemePath() const
@@ -1431,9 +1433,9 @@ void GameScene::enableTimers()
 
 void GameScene::wait(int ms)
 {
-  QTime t;
+  QElapsedTimer t;
   t.start();
-  while (t.elapsed() < ms)
+  while (!t.hasExpired(ms))
   {
     QApplication::processEvents();
   }
