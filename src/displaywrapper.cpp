@@ -305,8 +305,6 @@ void DisplayWrapper::dw_init(bool filter, int minWidth, int minHeight)
   //short original_rate = XRRConfigCurrentRate(conf);
   //SizeID original_size_id = XRRConfigCurrentConfiguration(conf, &original_rotation);
 
-  XCloseDisplay(dpy);
-
   for (int i = 0; i < num_sizes; i++)
   {
     int width = xrrs[i].width;
@@ -325,6 +323,8 @@ void DisplayWrapper::dw_init(bool filter, int minWidth, int minHeight)
       modes.append(mode);
     }
   }
+
+  XCloseDisplay(dpy);
 
   if (filter)
     modeNames.removeDuplicates();
