@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
     Scaler::init();
 
     // translation
-    QSettings settings("xlabsoft","jag");
+    QSettings settings("jag");
     QString lang = settings.value("Language", "").toString();
     QTranslator translator;
     if (!lang.isEmpty()) {

@@ -88,7 +88,7 @@ GameProfile::GameProfile(QObject *parent) : QObject(parent),
   m_accel(false)
 {
     userPath = QDir::homePath();
-    userPath += "/.xlabsoft/jag/";
+    userPath += "/.jag/";
 
 
     QDir userdir(userPath);
