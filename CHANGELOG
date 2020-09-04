@@ -1,7 +1,9 @@
 **version: 0.3.8**
   * Warning and deprecated functions fixed in GCC.
   * game.pro: Changed to '-std=gnu++17' review.
-  * src/editor/jag-editor.pro: Changed to '-std=gnu++17' review. 
+  * src/editor/jag-editor.pro: Changed to '-std=gnu++17' review.
+  * All themes have been removed, except the default theme for reasons that
+    are "freeware", but with additional Fasticon restrictions.
 
 **version: 0.3.7**
   * Fixed integrated qmake support for pkg-config. (Thanks Helmut Grohne)
