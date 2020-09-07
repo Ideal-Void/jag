@@ -157,7 +157,7 @@ void MainWindow::fileOpen()
             return;
     }
 
-    QSettings settings("xlabsoft","LevelEditor");
+    QSettings settings("jag","LevelEditor");
     QString qsPath = settings.value("scnpath",".").toString();
     qsPath = checkPathForDialog(qsPath);
 
@@ -189,7 +189,7 @@ void MainWindow::fileSave()
 //------------------------------------------
 void MainWindow::fileSaveAs()
 {
-    QSettings settings("xlabsoft","LevelEditor");
+    QSettings settings("jag","LevelEditor");
     QString qsPath = settings.value("scnpath",".").toString();
     qsPath = checkPathForDialog(qsPath);
 
@@ -267,7 +267,7 @@ void MainWindow::fileCreateLevelPack()
             f.close();
         }
 
-        QSettings settings("xlabsoft","LevelEditor");
+        QSettings settings("jag","LevelEditor");
         fname.truncate((fname).lastIndexOf('/')+1);
         settings.setValue("lpkpath", fname);
 
@@ -280,7 +280,7 @@ void MainWindow::fileCreateLevelPack()
 //------------------------------------------
 void MainWindow::fileExtractLevelPack()
 {
-    QSettings settings("xlabsoft","LevelEditor");
+    QSettings settings("jag","LevelEditor");
     QString qsPath = settings.value("lpkpath",".").toString();
     qsPath = checkPathForDialog(qsPath);
 
@@ -897,7 +897,7 @@ void MainWindow::updateSelectedCells()
 //------------------------------------------
 void MainWindow::loadSettings()
 {
-    QSettings settings("xlabsoft","LevelEditor");
+    QSettings settings("jag","LevelEditor");
 
     move(settings.value("X", 200).toUInt(), settings.value("Y", 100).toUInt());
     resize(settings.value("W", 770).toUInt(), settings.value("H", 892).toUInt());
@@ -915,7 +915,7 @@ void MainWindow::loadSettings()
 //------------------------------------------
 void MainWindow::saveSettings()
 {
-    QSettings settings("xlabsoft","LevelEditor");
+    QSettings settings("jag","LevelEditor");
 
     settings.setValue("X", x());
     settings.setValue("Y", y());

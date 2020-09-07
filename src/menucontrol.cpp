@@ -220,7 +220,7 @@ void MenuWidget::on_bOptLanguage_clicked()
     ui.lwLanguage->clear();
     ui.lwLanguage->addItem(LANG_DEFAULT);
 
-    QSettings settings("xlabsoft","jag");
+    QSettings settings("jag");
     QString lang = settings.value("Language", "").toString();
     int index = 0;
 
@@ -557,7 +557,7 @@ void MenuWidget::on_bLangOk_clicked()
         return;
     QTextStream ts(&f);
 
-    QSettings settings("xlabsoft","jag");
+    QSettings settings("jag");
     bool found = false;
     while (!ts.atEnd()) {
         QString qs = ts.readLine().simplified();

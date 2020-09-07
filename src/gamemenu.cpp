@@ -65,7 +65,7 @@ MenuWidget::MenuWidget(QWidget *parent) :
     qApp->setStyleSheet(style);
 
     // load help file
-    QSettings settings("xlabsoft","jag");
+    QSettings settings("jag");
     QString lang = settings.value("Language", "").toString();
     QString helpfile = GameWidget::getResourcePath() +
                        "help/index";
