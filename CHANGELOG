@@ -4,6 +4,9 @@
   * src/editor/jag-editor.pro: Changed to '-std=gnu++17' review.
   * All themes have been removed, except the default theme for reasons that
     are "freeware", but with additional Fasticon restrictions.
+  * Game configuration path changed.
+  * Changed the position of the XCloseDisplay line.
+  * About: Added contributor nickname. [a.k.a Coringao]
 
 **version: 0.3.7**
   * Fixed integrated qmake support for pkg-config. (Thanks Helmut Grohne)
