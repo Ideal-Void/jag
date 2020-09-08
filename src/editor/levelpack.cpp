@@ -46,7 +46,7 @@ int LevelPackDialog::exec()
     m_result = 0;
     ui.lwLevels->clear();
 
-    QSettings settings("jag","LevelEditor");
+    QSettings settings("JAG","LevelEditor");
     author = settings.value("author","XlabSoft").toString();
     packname = settings.value("packname","My Jag Pack").toString();
     comment = settings.value("comment","Created by jag level editor").toString();
@@ -150,7 +150,7 @@ void LevelPackDialog::on_bPrev_clicked()
 //------------------------------------------
 void LevelPackDialog::on_bBrowse_clicked()
 {
-    QSettings settings("jag","LevelEditor");
+    QSettings settings("JAG","LevelEditor");
     QString qsPath = settings.value("scnpath",".").toString();
     qsPath = checkPathForDialog(qsPath);
 
@@ -212,7 +212,7 @@ void LevelPackDialog::on_bClear_clicked()
 //------------------------------------------
 void LevelPackDialog::on_bBrowsePackFile_clicked()
 {
-    QSettings settings("jag","LevelEditor");
+    QSettings settings("JAG","LevelEditor");
     QString qsPath = settings.value("lpkpath",".").toString();
     qsPath = checkPathForDialog(qsPath);
     QString fname = QFileDialog::getSaveFileName(this, tr("Select level pack name"),
