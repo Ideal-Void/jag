@@ -80,3 +80,5 @@ at the end of 2016.
 Copyleft (ɔ) 2009-2012 Developed by **XlabSoft & Industrial Infosystems**
 
 Copyright (c) 2017-2020 Work continued by **Carlos Donizete Froes [a.k.a coringao]**
+
+Copyright (c) 2026- Work diverged by **Ide'al Void**
